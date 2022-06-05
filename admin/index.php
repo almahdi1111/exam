@@ -15,7 +15,7 @@
     </style>
 
 <div class="main">
-<h1 style="text-align: center">صفحة الادمن</h1>
+<h1 style="text-align: center">صفحة</h1>
     <div class="adminpanel">
         <h2 style="text-align: center">مرحبا بك في صفحة الادمن</h2>
         <p style="text-align: center">يمكنك إدارة المستخدم ونظام الامتحانات من هنا..</p>
