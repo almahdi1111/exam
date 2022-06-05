@@ -4,7 +4,8 @@
 Session::checkSession();
 
 if(isset($_GET['q'])){
-  $number = (int)$_GET['q'];   /*here now $number = quesNo*/
+  $number = (int)$_GET['q'];
+  
 }else{
     header("Location:exam.php");
 }
@@ -47,6 +48,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST'){
 			  <td >
 				<input type="submit" name="submit" value="السؤال التالي>"/>
 				<input type="hidden" name="number" value="<?php echo $number; ?>"/>
+
 			</td>
 			</tr>
 			
